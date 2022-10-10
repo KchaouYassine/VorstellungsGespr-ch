@@ -6,6 +6,21 @@
   <router-view />
 </template>
 
+<script>
+import { useStore } from 'vuex';
+import { onBeforeMount } from 'vue';
+
+export default ({
+  setup() {
+    const store = useStore();
+    onBeforeMount(() => {
+      store.dispatch('fetchUser');
+    })
+  },
+})
+</script>
+
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
