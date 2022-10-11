@@ -1,15 +1,12 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view />
 </template>
 
 <script>
 import { useStore } from 'vuex';
 import { onBeforeMount } from 'vue';
-import { CFormCheck } from '@coreui/vue'
+import Navbar from '@/components/Navbar'
+
 
 export default ({
   setup() {

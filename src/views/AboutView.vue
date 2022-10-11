@@ -1,15 +1,15 @@
 <template>
   <div class="about">
-    <Backgroudtest />
+    <Navbar />
   </div>
 </template>
 
 <script>
-import Backgroudtest  from '@/components/authentication/BackgroudLogin'
 
+import Navbar from '@/components/Navbar'
 export default ({
   components: {
-    Backgroudtest
+    Navbar
   }
 })
 </script>
