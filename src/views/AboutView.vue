@@ -1,5 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <Backgroudtest />
   </div>
 </template>
+
+<script>
+import Backgroudtest  from '@/components/authentication/BackgroudLogin'
+
+export default ({
+  components: {
+    Backgroudtest
+  }
+})
+</script>
+

@@ -9,6 +9,7 @@
 <script>
 import { useStore } from 'vuex';
 import { onBeforeMount } from 'vue';
+import { CFormCheck } from '@coreui/vue'
 
 export default ({
   setup() {
@@ -22,12 +23,17 @@ export default ({
 
 
 <style lang="scss">
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+
 }
 
 nav {

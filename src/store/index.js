@@ -4,7 +4,7 @@ import {auth} from "../firebase";
 import { 
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword ,
-  logout
+  signOut
 } from "firebase/auth";
 
 
@@ -81,7 +81,7 @@ export default createStore({
     },
 
     async logout({commit}){
-      await logout(auth)
+      await signOut(auth)
       commit('CLEAR_USER')
       router.push("/login")
     },
