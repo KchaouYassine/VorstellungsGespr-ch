@@ -65,14 +65,7 @@ nav{
     .nav-link ,.nav-link:hover ,.navbtn{
         color: #fff;
     }
-//     a {
-//     font-weight: bold;
-//     color: #fff;
 
-//     &.router-link-exact-active {
-//       color: #bae3c1;
-//     }
-//   }
 }
 
 
