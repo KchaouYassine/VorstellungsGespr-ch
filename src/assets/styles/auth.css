@@ -1,4 +1,4 @@
-section{
+.authSection{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@ section{
     background:#001923;
 }
 
-section::before{
+.authSection::before{
     content: '';
     position: absolute;
     width: 350px;
@@ -18,7 +18,7 @@ section::before{
     transform:translate(-420px , -180px);
 }
 
-section::after{
+.authSection::after{
     content: '';
     position: absolute;
     width: 300px;

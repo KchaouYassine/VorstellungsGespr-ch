@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="authSection">
         <div class="containerV">
             <form class="login" @submit.prevent="register">
             
@@ -58,6 +58,6 @@ import { ref } from 'vue'
  })
  </script>
 
-<style >
+<style scoped >
 @import '@/assets/styles/auth.css';
 </style>

@@ -46,11 +46,34 @@ export default ({
 })
 </script>
 
-<style scoped>
+<style lang="scss" >
+
 nav{
     background:#001923;
+    padding: 40px;
+    .navbar-brand{
+        color:#bae3c1;
+    }
+    .navbar-brand:hover{
+        color:#bae3c1;
+    }
+
+    .nav-item:hover {
+        background-color: #bae3c1;
+        transition :all ease-in-out;
+    }
+    .nav-link ,.nav-link:hover ,.navbtn{
+        color: #fff;
+    }
+//     a {
+//     font-weight: bold;
+//     color: #fff;
+
+//     &.router-link-exact-active {
+//       color: #bae3c1;
+//     }
+//   }
 }
-.navbtn{
-    color:#8C979C;
-}
+
+
 </style>
