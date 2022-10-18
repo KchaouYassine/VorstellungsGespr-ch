@@ -2,9 +2,9 @@
     <section class="projects text-center py-3">
         <div class="container">
             <div class="title-main py-2 position-relative">
-            <div class="image py-2">
+            <!-- <div class="image py-2">
                     <img src="@/assets/title.png" >
-            </div>
+            </div> -->
             <h1 class="fw-bold"> Our Project </h1>
             <p  class="text-black-50">and there is more and more</p>
             </div>

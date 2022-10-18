@@ -10,6 +10,7 @@
       
    </section>
    <Projects />
+   <Team />
         
   </div>
 </template>
@@ -20,7 +21,8 @@ import {auth} from '../firebase';
 import { useStore } from 'vuex';
 import Navbar from '@/components/Navbar';
 import Clouds from '@/components/Clouds';
-import Projects from '@/components/Projects.vue'
+import Projects from '@/components/Projects.vue';
+import Team from '@/components/Team.vue'
 
 export default {
   setup(){
@@ -36,7 +38,8 @@ export default {
   components: {
     Navbar,
     Clouds,
-    Projects
+    Projects,
+    Team
   }
 
 };
@@ -60,13 +63,28 @@ export default {
 .homeSection .paragraph{
   position: absolute;
   top: 30%;
-  right: 5%;
+  right:18%;
     
 }
 .homeSection p{
   font-family: 'Kaushan Script', cursive;
-  font-size: 120px;
+  font-size: 80px;
   color:#001923;
+}
+
+@media (min-width: 768px) { 
+  .homeSection .paragraph{
+    right:18%;
+  }
+  .homeSection p{
+    font-size:120px;
+  }
+}
+@media (min-width: 992px){
+  .homeSection .paragraph{
+    right:5%;
+    font-size: 120px;
+  }
 }
 .clouds{
   width: 100%;
