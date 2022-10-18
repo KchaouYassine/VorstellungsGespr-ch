@@ -9,6 +9,7 @@
     <Clouds class="clouds" />
       
    </section>
+   <Projects />
         
   </div>
 </template>
@@ -18,7 +19,8 @@
 import {auth} from '../firebase';
 import { useStore } from 'vuex';
 import Navbar from '@/components/Navbar';
-import Clouds from '@/components/Clouds'
+import Clouds from '@/components/Clouds';
+import Projects from '@/components/Projects.vue'
 
 export default {
   setup(){
@@ -33,7 +35,8 @@ export default {
   name: "HomeView",
   components: {
     Navbar,
-    Clouds
+    Clouds,
+    Projects
   }
 
 };

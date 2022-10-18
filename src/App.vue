@@ -32,6 +32,11 @@ export default ({
   color: #2c3e50;
 
 }
+:root{
+  --darkColor:#001923;
+  --green-color:#bae3c1;
+  --section-color: #eff7fa;
+}
 
 
 </style>

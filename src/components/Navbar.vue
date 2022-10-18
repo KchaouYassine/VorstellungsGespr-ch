@@ -41,9 +41,6 @@ export default ({
 </script>
 
 <style lang="scss" >
-:root{
-    --green-color:#bae3c1;
-}
 
 nav{
     background:#001923;

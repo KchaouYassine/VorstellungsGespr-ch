@@ -11,6 +11,9 @@
   "dependencies": {
     "@coreui/coreui": "^4.2.2",
     "@coreui/vue": "^4.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^3.0.1",
     "bootstrap": "^5.2.2",
     "core-js": "^3.8.3",
     "firebase": "^9.11.0",
